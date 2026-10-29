@@ -35,13 +35,13 @@ int main(int argc, char* argv[]) {
 
         const int iterations = 10;
 
-        // 2. Render initial state
+        //  Render initial state
         r.render(w);
         std::cout << "Seed: " << seed << std::endl;
         std::cout << "Iteration: 0 (Initial state)" << std::endl;
         std::this_thread::sleep_for(std::chrono::milliseconds(500));
 
-        // 3. Run simulation loop
+        //  Run simulation loop
         for (int step = 1; step <= iterations; ++step) {
             engine.updateCells(w, inactive_to_active_Rules, remain_active_Rules);
 
