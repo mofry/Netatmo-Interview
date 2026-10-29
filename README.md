@@ -18,6 +18,3 @@ g++ -Wall -Wextra -std=c++23 *.cpp -o technical_test
 
 The detailed explanations and answers to the statement are available in [answers.md](answers.md).
 
-## Part 1
-
-The project includes the first part of the technical challenge.
